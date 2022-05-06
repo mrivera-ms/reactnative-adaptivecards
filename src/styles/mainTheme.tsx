@@ -42,4 +42,10 @@ export const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
   },
+  buttonRow: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+  }
+
 });
