@@ -18,7 +18,7 @@ const HomeScreen = ({navigation}: NativeStackScreenProps) => {
           style={styles.button}
           onPress={() => navigation.navigate('AdaptiveCardSample1Screen')}>
           <View style={styles.buttonRow}>
-            <Timer />
+          <View style={styles.icon}><Timer /></View>
             <Text style={styles.buttonText}>Action Card</Text>
           </View>
         </TouchableOpacity>
@@ -26,7 +26,7 @@ const HomeScreen = ({navigation}: NativeStackScreenProps) => {
           style={styles.button}
           onPress={() => navigation.navigate('AdaptiveCardSample2Screen')}>
           <View style={styles.buttonRow}>
-            <Airplane/>
+            <View style={styles.icon}><Airplane/></View>
             <Text style={styles.buttonText}>Flight Reservation</Text>
           </View>
         </TouchableOpacity>
@@ -34,7 +34,7 @@ const HomeScreen = ({navigation}: NativeStackScreenProps) => {
           style={styles.button}
           onPress={() => navigation.navigate('AdaptiveCardSample3Screen')}>
           <View style={styles.buttonRow}>
-            <Weather />
+          <View style={styles.icon}><Weather /></View>
             <Text style={styles.buttonText}>Weather Card</Text>
           </View>
         </TouchableOpacity>
@@ -42,7 +42,7 @@ const HomeScreen = ({navigation}: NativeStackScreenProps) => {
           style={styles.button}
           onPress={() => navigation.navigate('AdaptiveCardSample4Screen')}>
           <View style={styles.buttonRow}>
-            <SignOut />
+          <View style={styles.icon}><SignOut /></View>
             <Text style={styles.buttonText}>Login Card</Text>
           </View>
         </TouchableOpacity>
