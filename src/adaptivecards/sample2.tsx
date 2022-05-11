@@ -12,23 +12,88 @@ export const payload = {
       wrap: true,
     },
     {
-      type: 'TextBlock',
-      text: 'Sarah Hum',
+      type: 'ColumnSet',
       separator: true,
-      wrap: true,
+      columns: [
+        {
+          type: 'Column',
+          width: 1,
+          items: [
+            {
+              type: 'WeatherIcon'
+            }
+          ]
+        },
+        {
+          type: 'Column',
+
+          items: [
+            {
+              type: 'TextBlock',
+              text: 'Sarah Hum',
+              separator: true,
+              wrap: true,
+            }
+          ]
+        }
+       ]
     },
     {
-      type: 'TextBlock',
-      text: 'Jeremy Goldberg',
-      spacing: 'None',
-      wrap: true,
+      type: 'ColumnSet',
+      separator: true,
+      columns: [
+        {
+          type: 'Column',
+          width: 1,
+          items: [
+            {
+              type: 'AirplaneIcon'
+            }
+          ]
+        },
+        {
+          type: 'Column',
+
+          items: [
+            {
+              type: 'TextBlock',
+              text: 'Evan Litvak',
+              spacing: 'None',
+              wrap: true,
+            },
+          ]
+        }
+       ]
     },
     {
-      type: 'TextBlock',
-      text: 'Evan Litvak',
-      spacing: 'None',
-      wrap: true,
+      type: 'ColumnSet',
+      separator: true,
+      columns: [
+        {
+          type: 'Column',
+          width: 1,
+          items: [
+            {
+              type: 'TimerIcon'
+            }
+          ]
+        },
+        {
+          type: 'Column',
+
+          items: [
+            {
+              type: 'TextBlock',
+              text: 'Jeremy Goldberg',
+              spacing: 'None',
+              wrap: true,
+            },
+          ]
+        }
+       ]
     },
+
+
     {
       type: 'TextBlock',
       text: '2 Stops',
